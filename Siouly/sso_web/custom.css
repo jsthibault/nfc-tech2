@@ -1,0 +1,23 @@
+body {
+	background: #1b1b1b;
+	color: white;
+	font-size: 35px;
+}
+
+@media screen and (max-width: 880px) {
+	body {
+		font-size: 20px;
+	}
+}
+
+#corps {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 850px;
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	background: #f4f4f4;
+}
